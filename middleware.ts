@@ -7,6 +7,7 @@ import { authPages } from '@/module/api/auth/authPages';
 const publicPages = [
     '/',
     '/auth/signin',
+    '/$/crawler',
 ];
 
 const handleI18nRouting = createMiddleware(routing);

@@ -9,6 +9,7 @@ import { getNoticeByLocale } from '@/module/lib/notice/getNoticeByLocale';
 import dayjs from 'dayjs';
 import style from './page.module.scss';
 import Link from 'next/link';
+import Test from '@/app/[lang]/(common)/test';
 
 export const dynamic = 'force-dynamic';
 
@@ -129,6 +130,7 @@ const PageIndex = async () => {
                     </section>
                 </Card>
             </section>
+            <Test />
         </article>
     );
 };
