@@ -2,68 +2,7 @@ const Crawler = () => {
     return <></>;
     //     return (
     //         <Container id="gfdminfo">
-    //             <BodyHeader>
-    //                 <ItemRow
-    //                     keepDirHor={true}
-    //                     style={{ textAlign: 'center' }}
-    //                 >
-    //                     <ItemCol size={2}>
-    //                         {CommonData.vertxt.map((x, i) => (
-    //                             <Button
-    //                                 className="btn btn-primary"
-    //                                 onClick={() => props.setVerType(i)}
-    //                                 style={{ width: '100%' }}
-    //                                 disabled={props.vtype === i}
-    //                             >
-    //                                 {x}
-    //                             </Button>
-    //                         ))}
-    //                     </ItemCol>
-    //                 </ItemRow>
-    //                 <ItemRow>{`${CommonData.vertxt[props.vtype]}`}</ItemRow>
-    //             </BodyHeader>
-    //
     //             <BodyContent>
-    //                 {/* 주의사항 */}
-    //                 <ItemRow>
-    //                     <BodyHeader>
-    //                         <h4>{`${props.username}${
-    //                             (text.crawler.logined as any)[props.lang]
-    //                         }`}</h4>
-    //                     </BodyHeader>
-    //                     <BodyContent>
-    //                         <ItemRow className="crawler-linespace">
-    //                             <h5>{`${
-    //                                 (text.crawler.alert.title as any)[props.lang]
-    //                             }`}</h5>
-    //                         </ItemRow>
-    //                         <ItemRow>
-    //                             <ul>
-    //                                 <li>{`${
-    //                                     (text.crawler.alert.warn1 as any)[
-    //                                         props.lang
-    //                                     ]
-    //                                 }`}</li>
-    //                                 <li>{`${
-    //                                     (text.crawler.alert.warn2 as any)[
-    //                                         props.lang
-    //                                     ]
-    //                                 }`}</li>
-    //                                 <li>{`${
-    //                                     (text.crawler.alert.warn3 as any)[
-    //                                         props.lang
-    //                                     ]
-    //                                 }`}</li>
-    //                                 <li>{`${
-    //                                     (text.crawler.alert.warn4 as any)[
-    //                                         props.lang
-    //                                     ]
-    //                                 }`}</li>
-    //                             </ul>
-    //                         </ItemRow>
-    //                     </BodyContent>
-    //                 </ItemRow>
-    //
     //                 {/* 갱신 현황, 타이밍 조절 */}
     //                 <ItemRow keepDirHor={true}>
     //                     <ItemCol size={5}>

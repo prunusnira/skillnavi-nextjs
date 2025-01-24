@@ -2,7 +2,7 @@ import { cn } from '@/module/util/cn';
 
 const Title = () => {
     return (
-        <section className={cn('w-full flex-col-center px-5 py-10')}>
+        <section className={cn('w-full flex-col-center px-5 py-8')}>
             {/* 이유는 알 수 없으나, justify-end가 justify-content: flex-end를 만들지 못하고 있음 */}
             <div
                 className={cn('w-full flex items-center justify-end')}

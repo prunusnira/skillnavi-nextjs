@@ -2,6 +2,9 @@ export const API = {
     ENV: {
         version: `/env/version`,
     },
+    AUTH: {
+        token: '/auth/token',
+    },
     NOTICE: `/notice`,
     PROFILE: {
         mine: '/profile',

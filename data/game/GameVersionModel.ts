@@ -16,6 +16,9 @@ export const GameVersionModel = sequelize.define<GameVersion>(
         full: {
             type: DataTypes.STRING,
         },
+        ableToUpdate: {
+            type: DataTypes.TINYINT,
+        },
     },
     {
         tableName: 'GameVersion',
